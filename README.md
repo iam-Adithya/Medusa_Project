@@ -21,7 +21,7 @@ This project showcases the deployment of the [MedusaJS](https://docs.medusajs.co
 
 ---
 
-## ✅ `README.md` Template
+## ✅ `Start Here !` 
 
 ```markdown
 # Medusa Backend Deployment on AWS ECS Fargate using Terraform
@@ -43,25 +43,6 @@ This repository contains the Terraform code and GitHub Actions configuration to 
 - GitHub Actions
 - MedusaJS (Node.js backend)
 
-## 📦 Folder Structure
-
-```
-.
-├── terraform/                 # IaC code for AWS resources
-│   ├── main.tf
-│   ├── variables.tf
-│   ├── outputs.tf
-│   ├── ecs.tf
-│   ├── ecr.tf
-│   ├── iam.tf
-│   └── vpc.tf
-├── .github/
-│   └── workflows/
-│       └── deploy.yml         # GitHub Actions pipeline
-├── docker/
-│   └── Dockerfile             # Medusa backend image
-├── README.md
-```
 
 ## 🛠️ How to Deploy
 
